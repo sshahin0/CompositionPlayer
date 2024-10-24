@@ -261,7 +261,7 @@
 		08B3D12F890886881D2BDBF452ABC9FF /* MTICorner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MTICorner.swift; path = Frameworks/MetalPetal/MTICorner.swift; sourceTree = "<group>"; };
 		09ED55322BF3A09E290F24B5A01DB975 /* MTIGeometryUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTIGeometryUtilities.h; path = Frameworks/MetalPetal/MTIGeometryUtilities.h; sourceTree = "<group>"; };
 		0A51D30F5B7D90D0853610BD66B17207 /* MetalPetal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetalPetal.swift; path = Frameworks/MetalPetal/MetalPetal.swift; sourceTree = "<group>"; };
-		0A57956B5FFBDC5A98D9EF3E79151D51 /* MetalPetal */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MetalPetal; path = MetalPetal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A57956B5FFBDC5A98D9EF3E79151D51 /* MetalPetal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MetalPetal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A597EE88C1FA497F8DCF82AD00872F1 /* MTIMPSKernel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MTIMPSKernel.h; path = Frameworks/MetalPetal/Kernels/MTIMPSKernel.h; sourceTree = "<group>"; };
 		0ACC795C79C79F269A85FEAC95EF5324 /* MTISIMDArgumentEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MTISIMDArgumentEncoder.swift; path = Frameworks/MetalPetal/MTISIMDArgumentEncoder.swift; sourceTree = "<group>"; };
 		0AFEEE1F659F1C04737B4B7080D9E147 /* MTICVPixelBufferRendering.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MTICVPixelBufferRendering.m; path = Frameworks/MetalPetal/MTICVPixelBufferRendering.m; sourceTree = "<group>"; };
@@ -527,7 +527,7 @@
 		20B49D380057890486BE5FAF7323B5EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0A57956B5FFBDC5A98D9EF3E79151D51 /* MetalPetal */,
+				0A57956B5FFBDC5A98D9EF3E79151D51 /* MetalPetal.framework */,
 				CD481B06C061260B732B0EB42BB54241 /* Pods_BMComposition.framework */,
 				C8CE64B0B3D0B1187E65C655DB0953D4 /* Pods_BMCompositionDemo.framework */,
 			);
@@ -1044,7 +1044,7 @@
 			);
 			name = MetalPetal;
 			productName = MetalPetal;
-			productReference = 0A57956B5FFBDC5A98D9EF3E79151D51 /* MetalPetal */;
+			productReference = 0A57956B5FFBDC5A98D9EF3E79151D51 /* MetalPetal.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1276,7 +1276,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/MetalPetal/MetalPetal-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1550,7 +1550,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/MetalPetal/MetalPetal-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
